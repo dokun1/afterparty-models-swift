@@ -1,6 +1,6 @@
 //
 //  Location.swift
-//  
+//
 //
 //  Created by David Okun on 6/14/20.
 //

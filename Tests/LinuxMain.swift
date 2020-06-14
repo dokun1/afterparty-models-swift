@@ -1,7 +1,7 @@
 import XCTest
 
-import ModelsTests
+import afterparty_models_swiftTests
 
 var tests = [XCTestCaseEntry]()
-tests += ModelsTests.allTests()
+tests += ModelTests.allTests()
 XCTMain(tests)

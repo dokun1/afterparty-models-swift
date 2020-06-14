@@ -23,7 +23,7 @@ let package = Package(
       name: "afterparty-models-swift",
       dependencies: []),
     .testTarget(
-      name: "ModelTests",
+      name: "afterparty-models-swiftTests",
       dependencies: ["afterparty-models-swift"]),
   ]
 )
