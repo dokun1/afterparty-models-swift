@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Location: Codable, Identifiable {
-  var id: UUID
-  var latitude: Double
-  var longitude: Double
+public struct Location: Codable, Identifiable {
+  public var id: UUID
+  public var latitude: Double
+  public var longitude: Double
 }

@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Event: Codable, Identifiable {
-  var id: UUID
-  var name: String
-  var start: Date
-  var end: Date
-  var location: Location
+public struct Event: Codable, Identifiable {
+  public var id: UUID
+  public var name: String
+  public var start: Date
+  public var end: Date
+  public var location: Location
 }

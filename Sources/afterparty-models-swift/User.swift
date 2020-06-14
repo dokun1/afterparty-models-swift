@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct User: Codable, Identifiable {
-  var id: UUID
-  var email: String
-  var nickname: String
+public struct User: Codable, Identifiable {
+  public var id: UUID
+  public var email: String
+  public var nickname: String
 }
