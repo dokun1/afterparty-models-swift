@@ -22,3 +22,9 @@ public struct Event: Codable, Identifiable {
   public var end: Date
   public var location: Location
 }
+
+extension Event: Equatable {
+  public static func == (lhs: Event, rhs: Event) -> Bool {
+    return lhs.id == rhs.id && lhs.start == rhs.start && lhs.end == rhs.end
+  }
+}

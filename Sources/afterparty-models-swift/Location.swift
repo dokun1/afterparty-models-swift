@@ -18,3 +18,9 @@ public struct Location: Codable, Identifiable {
   public var latitude: Double
   public var longitude: Double
 }
+
+extension Location: Equatable {
+  public static func == (lhs: Location, rhs: Location) -> Bool {
+    return lhs.id == rhs.id
+  }
+}
