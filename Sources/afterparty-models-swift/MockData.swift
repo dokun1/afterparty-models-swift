@@ -28,13 +28,13 @@ public struct MockData {
   }
   
   struct MockEvents {
-    static let sundayDinner = Event(name: "Sunday Dinner", location: MockLocation.Austin.condo)
-    static let margaritas = Event(name: "Margarita Monday!", location: MockLocation.Austin.elAlma)
-    static let work = Event(name: "Sad Work Wednesday", location: MockLocation.Austin.schwabOffice)
-    static let comedyShow = Event(name: "Comedy Show", location: MockLocation.Austin.ibmOffice)
-    static let classTime = Event(name: "Back to School", location: MockLocation.Austin.universityOfTexas)
-    static let wineTime = Event(name: "Mour wine please!", location: MockLocation.Austin.mour)
-    static let tacos = Event(name: "I want tacos!", location: MockLocation.Austin.elAlma)
+    static let sundayDinner = Event(name: "Sunday Dinner")
+    static let margaritas = Event(name: "Margarita Monday!")
+    static let work = Event(name: "Sad Work Wednesday")
+    static let comedyShow = Event(name: "Comedy Show")
+    static let classTime = Event(name: "Back to School")
+    static let wineTime = Event(name: "Mour wine please!")
+    static let tacos = Event(name: "I want tacos!")
   }
   
   public static let sampleEvents = [MockEvents.classTime, MockEvents.comedyShow, MockEvents.margaritas, MockEvents.sundayDinner, MockEvents.tacos, MockEvents.wineTime, MockEvents.work]
