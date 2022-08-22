@@ -11,6 +11,10 @@ public struct EventSubmissionResponse: Codable {
   public var objectId: String
 }
 
+public struct EventAdditionResponse: Codable {
+  public var events: [String]
+}
+
 public struct EventResponse: Codable {
   public var results: [Event]
 }
